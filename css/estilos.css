@@ -12,8 +12,19 @@ body{
     text-align: center;
     border: 1px solid #ddd;
     margin: 0 auto;
+    background-color: blue;
+}
+
+h1{
+    color: ghostwhite;
+    font-weight: bold;
 }
 
 #container h1{
     font-size: 20px;
+}
+
+p{
+    text-decoration: underline;
+    color: pink;
 }
