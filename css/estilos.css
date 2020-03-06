@@ -1,11 +1,32 @@
 body{
-    color: blue;
-    text-align: left;
+    background: black;
+    color: black;
+    text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
+
+#cabecera {
+    background: #33a url(imagenes/NaveDragonBall.png);
+    color: antiquewhite;
+    margin: 0;
+    padding: 0.5em 0.5em 2em;
+    font-weight: bold;
+}
+
+#cabecera #logo {
+    width: 40px;
+    text-align: middle;
+}
+
+#cabecera #tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
 #container {
     width: 70%;
     padding: 1em;
@@ -38,4 +59,9 @@ p{
     color: red;
     border: red;
     background-color: rgba(0, 0, 0, 70%);
+}
+
+#post {
+    background-color: lightgrey;
+    padding: 1em;
 }
